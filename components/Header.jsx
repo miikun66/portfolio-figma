@@ -34,7 +34,7 @@ const Header = () => {
         }`}
       >
         <a href="#">
-          <h2 className="text-2xl font-semibold md:text-5xl hover:drop-shadow-[0px_0px_15px_rgb(0,0,0)] hover:drop-shadow-green-400 hover:text-[var(--primary)]">
+          <h2 className="text-2xl font-semibold md:text-5xl hover:drop-shadow-[0px_0px_15px_rgb(0,0,0)] hover:drop-shadow-green-400 hover:text-[var(--primary)] transition-all duration-300">
             Mike <span className="text-[var(--primary)]">.</span>
           </h2>
         </a>

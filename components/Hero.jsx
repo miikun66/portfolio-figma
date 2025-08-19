@@ -53,7 +53,7 @@ const Hero = () => {
       </div>
 
       {/* Quotes */}
-      <div className="border-2 p-5 relative mt-10 w-full max-w-3xl">
+      <div className="border-2 rounded-lg p-5 relative mt-10 w-full max-w-3xl">
         <p className="absolute text-5xl -top-6 bg-[var(--background)] p-2">"</p>
         <h2 className="flex justify-center items-center text-center text-lg md:text-xl px-4">
           Never get action, Never to gain goals
