@@ -4,7 +4,7 @@ const Nav = () => {
       <li>
         <a
           href="#"
-          className="capitalize font-medium hover:text-[var(--primary)] transition-all"
+          className="capitalize font-medium hover:text-[var(--primary)] transition-all hover:text-shadow-[0px_0px_15px_rgb(0,0,0)] hover:text-shadow-green-400"
         >
           Home
         </a>
@@ -12,7 +12,7 @@ const Nav = () => {
       <li>
         <a
           href="#project"
-          className="capitalize font-medium hover:text-[var(--primary)] transition-all"
+          className="capitalize font-medium hover:text-[var(--primary)] transition-all hover:text-shadow-[0px_0px_15px_rgb(0,0,0)] hover:text-shadow-green-400"
         >
           Project
         </a>
@@ -20,7 +20,7 @@ const Nav = () => {
       <li>
         <a
           href="#about"
-          className="capitalize font-medium hover:text-[var(--primary)] transition-all"
+          className="capitalize font-medium hover:text-[var(--primary)] transition-all hover:text-shadow-[0px_0px_15px_rgb(0,0,0)] hover:text-shadow-green-400"
         >
           About Me
         </a>
@@ -28,7 +28,7 @@ const Nav = () => {
       <li>
         <a
           href="#contact"
-          className="capitalize font-medium hover:text-[var(--primary)] transition-all"
+          className="capitalize font-medium hover:text-[var(--primary)] transition-all hover:text-shadow-[0px_0px_15px_rgb(0,0,0)] hover:text-shadow-green-400"
         >
           Contact
         </a>
