@@ -107,8 +107,6 @@ const Projects = () => {
 
   return (
     <div className="py-10 px-6">
-      <h2 className="text-3xl font-bold mb-6 text-center">My Projects</h2>
-
       <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-6 p-10 md:p-15">
         {projectsData.slice(0, visibleProjects).map((project) => (
           <div
@@ -119,7 +117,7 @@ const Projects = () => {
             <img
               src={project.image}
               alt={project.title}
-              className="w-full h-40 object-cover"
+              className="w-full h-40 object-cover blur-sm hover:blur-none transition-all duration-300"
             />
             <div className="p-4">
               <h3 className="text-xl font-semibold mb-2">{project.title}</h3>

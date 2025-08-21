@@ -8,8 +8,8 @@ const carterOne = Carter_One({
 });
 
 export const metadata = {
-  title: "Belajar Portfolio",
-  description: "Mencoba membuat portfolio pakai next js",
+  title: "My Portfolio",
+  description: "Here my project and result for the work",
 };
 
 export default function RootLayout({ children }) {

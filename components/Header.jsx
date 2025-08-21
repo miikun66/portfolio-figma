@@ -33,7 +33,7 @@ const Header = () => {
           show ? "translate-y-0" : "-translate-y-full"
         }`}
       >
-        <a href="#">
+        <a href="/">
           <h2 className="text-2xl font-semibold md:text-5xl hover:drop-shadow-[0px_0px_15px_rgb(0,0,0)] hover:drop-shadow-green-400 hover:text-[var(--primary)] transition-all duration-300">
             Mike <span className="text-[var(--primary)]">.</span>
           </h2>
@@ -71,7 +71,7 @@ const Header = () => {
             className="text-2xl mb-6 cursor-pointer active:text-[var(--primary)] hover:text-[var(--primary)]"
             onClick={() => setMenuOpen(false)}
           >
-            <CgClose size={30} />
+            <CgClose size={30} className="hover:rotate-90 transition-all duration-300" />
           </button>
           <nav className="flex flex-col text-xl gap-4">
             <Nav />
