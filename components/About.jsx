@@ -3,7 +3,7 @@ import { FaGithub, FaLinkedin, FaFacebook, FaYoutube } from "react-icons/fa";
 
 export default function About() {
   return (
-    <div className="max-w-4xl lg:mx-auto shadow-lg rounded-lg p-8 mt-20 mx-5 border-2 border-[var(--primary)] hover:shadow-lg transition-all duration-300 hover:shadow-green-400 cursor-pointer">
+    <div className="max-w-4xl lg:mx-auto shadow-lg rounded-lg p-8 mt-20 mx-5 border border-[var(--primary)] hover:shadow-lg transition-all duration-300 hover:shadow-green-400 cursor-pointer">
       {/* Header */}
       <div className="flex items-center gap-6 border-b pb-6">
         <img
