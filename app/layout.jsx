@@ -10,6 +10,9 @@ const carterOne = Carter_One({
 export const metadata = {
   title: "My Portfolio",
   description: "Here my project and result for the work",
+  icons: {
+    icon: "/images/mike.png",
+  }
 };
 
 export default function RootLayout({ children }) {

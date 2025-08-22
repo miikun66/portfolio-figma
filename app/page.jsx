@@ -1,9 +1,12 @@
+"use client";
+
 import Header from "@/components/Header";
 
 import Hero from "@/components/Hero";
 import Project from "@/components/Project.";
 import About from "@/components/About";
 import Contact from "@/components/Contact";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -49,7 +52,9 @@ export default function Home() {
         </section>
       </main>
       <hr className="mx-8 md:mx-15 text-[var(--primary)]" />
-      <footer></footer>
+      <footer className="my-10 md:my-20">
+        <Footer />
+      </footer>
     </>
   );
 }
