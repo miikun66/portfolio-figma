@@ -76,7 +76,7 @@ I am interested in: ${form.service}`;
 
         {/* Dropdown */}
         <div>
-          <label id="service" className="block mb-1 font-medium">
+          <label htmlFor="service" className="block mb-1 font-medium">
             Service
           </label>
           <select
