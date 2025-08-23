@@ -1,7 +1,6 @@
 "use client";
 
 import React from "react";
-import Image from "next/image";
 import Link from "next/link";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
 
@@ -19,12 +18,12 @@ const Hero = () => {
         {/* Gambar (mobile di atas) */}
         <div className="flex justify-center md:justify-end flex-1 order-1 md:order-2">
           <div className="w-50 h-50 md:w-60 md:h-60 lg:w-80 lg:h-80 rounded-full border-2 border-[var(--primary)] overflow-hidden flex items-center justify-center">
-            <Image
+            <img
               src="/images/hero.webp"
               alt="Michael Christianto"
               width={350}
               height={350}
-              className="object-cover w-full h-full opacity-20"
+              className="object-cover w-full h-full opacity-50"
             />
           </div>
         </div>

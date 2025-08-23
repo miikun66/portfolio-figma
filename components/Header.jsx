@@ -29,7 +29,7 @@ const Header = () => {
   return (
     <>
       <header
-        className={`flex navbar-fixed justify-between py-5 shadow-sm px-10 md:px-16 lg:px-20 text-2xl fixed left-0 right-0 top-0 transition-transform duration-300 ${
+        className={`flex navbar-fixed justify-between py-5 border-b border-[var(--primary)] hover:shadow-lg hover:shadow-green-400 px-10 md:px-16 lg:px-20 text-2xl fixed left-0 right-0 top-0 transition-all duration-300 ${
           show ? "translate-y-0" : "-translate-y-full"
         }`}
       >
@@ -39,6 +39,7 @@ const Header = () => {
           </h2>
         </a>
         <button
+          aria-label="Menu Side Bar"
           onClick={() => setMenuOpen(true)}
           className="active:text-[var(--primary)] md:hidden cursor-pointer hover:text-[var(--primary)] drop-shadow-2xl"
         >
@@ -68,10 +69,14 @@ const Header = () => {
           ${menuOpen ? "translate-x-0" : "translate-x-full"}`}
         >
           <button
+            aria-label="Close Menu"
             className="text-2xl mb-6 cursor-pointer active:text-[var(--primary)] hover:text-[var(--primary)]"
             onClick={() => setMenuOpen(false)}
           >
-            <CgClose size={30} className="hover:rotate-90 transition-all duration-300" />
+            <CgClose
+              size={30}
+              className="hover:rotate-90 transition-all duration-300"
+            />
           </button>
           <nav className="flex flex-col text-xl gap-4">
             <Nav />

@@ -9,22 +9,42 @@ export default function About() {
         <img
           src="/images/hero.webp"
           alt="Profile"
-          className="w-20 h-20 md:w-28 md:h-28 rounded-full object-cover border border-[var(--primary)] opacity-15"
+          className="w-20 h-20 md:w-28 md:h-28 rounded-full object-cover border border-[var(--primary)] opacity-50"
         />
         <div>
           <h1 className="text-3xl font-bold">Michael Christianto</h1>
           <p>Beginner Developer</p>
           <div className="flex gap-4 mt-2 text-xl ">
-            <a href="https://github.com/" target="_blank" rel="noreferrer">
+            <a
+              href="https://github.com/"
+              aria-label="github"
+              target="_blank"
+              rel="noreferrer"
+            >
               <FaGithub className="hover:text-black" />
             </a>
-            <a href="https://linkedin.com/" target="_blank" rel="noreferrer">
+            <a
+              href="https://linkedin.com/"
+              aria-label="linkedin"
+              target="_blank"
+              rel="noreferrer"
+            >
               <FaLinkedin className="hover:text-blue-600" />
             </a>
-            <a href="https://facebook.com/" target="_blank" rel="noreferrer">
+            <a
+              href="https://facebook.com/"
+              aria-label="facebook"
+              target="_blank"
+              rel="noreferrer"
+            >
               <FaFacebook className="hover:text-blue-500" />
             </a>
-            <a href="https://youtube.com/" target="_blank" rel="noreferrer">
+            <a
+              href="https://youtube.com/"
+              aria-label="youtube"
+              target="_blank"
+              rel="noreferrer"
+            >
               <FaYoutube className="hover:text-red-500" />
             </a>
           </div>
@@ -63,7 +83,7 @@ export default function About() {
           <h3 className="font-bold">
             Kitchen Assistant - Pangsit Noodle Restaurant
           </h3>
-          <p className="text-sm text-gray-500">2016 - 2021</p>
+          <p className="text-sm">2016 - 2021</p>
           <p>
             Assisted in kitchen management, food preparation, and maintaining a
             clean working environment. Developed teamwork and time management
@@ -75,7 +95,7 @@ export default function About() {
           <h3 className="font-bold">
             Data Entry Administrator – Local Business
           </h3>
-          <p className="text-sm text-gray-500">2022 - 2025</p>
+          <p className="text-sm">2022 - 2025</p>
           <p>
             Managed customer and sales data entry, organized reports, and
             supported backend operations using Google Spreadsheet. Learned

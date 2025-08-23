@@ -7,12 +7,14 @@ import Project from "@/components/Project.";
 import About from "@/components/About";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
+import ScrollToTop from "@/components/ScrollToTop";
 
 export default function Home() {
   return (
     <>
       <Header />
       <main className="mt-24">
+        <ScrollToTop />
         <section className="mx-20 ">
           <Hero />
         </section>

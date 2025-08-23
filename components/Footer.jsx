@@ -16,6 +16,7 @@ const Footer = () => {
         <div className="flex space-x-6 text-xl">
           <a
             href="https://facebook.com/"
+            aria-label="facebook"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-blue-500 transition"
@@ -24,6 +25,7 @@ const Footer = () => {
           </a>
           <a
             href="https://github.com/"
+            aria-label="github"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-gray-400 transition"
@@ -32,6 +34,7 @@ const Footer = () => {
           </a>
           <a
             href="https://linkedin.com/in/"
+            aria-label="linkedin"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-blue-400 transition"
@@ -40,6 +43,7 @@ const Footer = () => {
           </a>
           <a
             href="https://youtube.com/"
+            aria-label="youtube"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-red-500 transition"

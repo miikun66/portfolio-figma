@@ -38,7 +38,7 @@ I am interested in: ${form.service}`;
           <input
             type="text"
             name="name"
-            placeholder="Name of Company"
+            placeholder="Name or Company"
             value={form.name}
             onChange={handleChange}
             required
@@ -76,8 +76,11 @@ I am interested in: ${form.service}`;
 
         {/* Dropdown */}
         <div>
-          <label className="block mb-1 font-medium">Service</label>
+          <label id="service" className="block mb-1 font-medium">
+            Service
+          </label>
           <select
+            id="service"
             name="service"
             value={form.service}
             onChange={handleChange}
